@@ -57,5 +57,6 @@ print("Done...!!!")
 t8 = tuple(reversed(t7))
 print(t8)
 print("Done...!!!")
-
+# t8.sort()
+# print(t8) # AttributeError: 'tuple' object has no attribute 'sort'
 
