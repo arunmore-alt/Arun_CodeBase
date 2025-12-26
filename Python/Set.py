@@ -75,3 +75,4 @@ if "banana" in information:
     print("Yes, Banana is presenrt in the set And Deleting it now")
 else:
     print("No, Banana is not present in the set")
+
