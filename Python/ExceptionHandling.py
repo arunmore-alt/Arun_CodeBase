@@ -15,3 +15,13 @@ finally:
     print("Execution completed and i am Always executed.")
 print("Done...!!!")
 
+
+
+# custom Error
+
+a = int(input("Enter a Value between 1 to 10: "))
+
+if a<1 or a>10:
+    raise ValueError("Value is Out of range please enter between 1 to 10")
+
+
