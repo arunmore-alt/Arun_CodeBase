@@ -50,8 +50,8 @@ print("Done...!!!")
 
 t7 = tuple(sorted(t6))
 print(t7)
-
 print("Done...!!!")
+
 # t7.reverse()
 # print(t7) # AttributeError: 'tuple' object has no attribute 'reverse'
 t8 = tuple(reversed(t7))
@@ -61,3 +61,8 @@ print("Done...!!!")
 # print(t8) # AttributeError: 'tuple' object has no attribute 'sort'
 t9 = tuple(sorted(t8, reverse=True))
 print(t9)
+print("Done...!!!")
+# t9.reverse()
+# print(t9) # AttributeError: 'tuple' object has no attribute 'reverse'
+print(t9)
+

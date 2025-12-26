@@ -48,5 +48,29 @@ b = {4,5,6,7,8}
 c = a.symmetric_difference(b)
 print(c)
 
-d = c + 2
-print(d)
+c.add(1000)
+print(c)
+
+# remove vs discard
+c.remove(1000)
+print(c)
+
+# c.remove(2000) # KeyError: 2000
+c.discard(2000)
+print(c)
+
+item = c.pop()
+print(c)
+print(item)
+del  c 
+# print(c)# NameError: name 'c' is not defined
+
+
+s1.clear
+
+information = {"banana", "apple", "mango", "orange"}
+
+if "banana" in information:
+    print("Yes, Banana is presenrt in the set And Deleting it now")
+else:
+    print("No, Banana is not present in the set")
