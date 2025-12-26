@@ -33,3 +33,23 @@ print(my_dict)
 
 emp ={}
 print(emp)
+
+
+
+# Excersice 
+
+
+for i in range(7):
+    print(i)
+else:
+    print("Loop is completed")
+
+
+# in this case Loop does not complete (end) beacuse loop is break
+
+for i in range(5):
+    print(i)
+    if i==3:
+        break
+else:
+    print("Loop is completed")
