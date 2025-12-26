@@ -59,6 +59,7 @@ print(c)
 c.discard(2000)
 print(c)
 
+
 item = c.pop()
 print(c)
 print(item)
@@ -66,7 +67,7 @@ del  c
 # print(c)# NameError: name 'c' is not defined
 
 
-s1.clear
+s1.clear()
 
 information = {"banana", "apple", "mango", "orange"}
 
