@@ -11,4 +11,3 @@ print("Done...!!!")
 price = 343.5657
 print(f"My product price is {price}")
 print(f"My product price is {price:.2f}")
-

@@ -21,4 +21,3 @@ for folder in folders:
     print(os.listdir(f"Data/{folder}"))
 
 print(os.getcwd())
-
