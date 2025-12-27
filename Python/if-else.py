@@ -84,3 +84,4 @@ match month:
         print("Invalid month number")
 
 
+# short hand if-else
