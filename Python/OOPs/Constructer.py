@@ -3,6 +3,7 @@ print("Constructer..!!")
 class Person:
     # name = "Arun"
     # JR = "Software Developer"
+    
     # networth = 23
 
     def __init__(self, n , j):
