@@ -6,11 +6,13 @@ class Math:
     
     def add(self, a):
         return self.num + a
-    
-    def addTwo(self,b , c):
+    @staticmethod
+    def addTwo(b , c):
         return b+c
 
 a = Math(6)
 print(a.num)
 print(a.add(5))
 print(a.addTwo(4,3))
+# print(Math.addTwo(4,3))
+
