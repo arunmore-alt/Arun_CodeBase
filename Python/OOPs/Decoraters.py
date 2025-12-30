@@ -8,6 +8,7 @@ def greet(fx):
         print("Thank u using this Function...")
     return mfx
 
+
 @greet
 def hell():
     print("Hello..!!, Arun")
